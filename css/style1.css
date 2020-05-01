@@ -1,0 +1,230 @@
+@import url(reset.css);
+
+body {
+    background: #d6dbcb;
+    padding: 20px;
+}
+
+@font-face {
+    font-family: 'ticker_taperegular';
+    src: url('../fonts/ticker.eot');
+    src: url('../fonts/ticker.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ticker.woff') format('woff'),
+         url('../fonts/ticker.ttf') format('truetype'),
+         url('../fonts/ticker.svg#ticker_taperegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#clear {
+    clear: both;
+}
+
+img {
+    border: none;
+}
+
+a {
+    color: #be1a2a;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#wrapper {
+    margin: 0 auto;
+    min-width: 945px;
+    max-width: 1300px;
+} 
+
+/*Начало блока хедер*/
+
+#katalog-head { 
+    background: #e6edd5 url("../images/katalog-head-bg.png") left top repeat-x;
+    position: relative;
+    height: 235px; 
+}
+
+#katalog-logo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 35%;
+}
+
+#katalog-menu {
+    list-style: none;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    margin: 50px 0 0 17%;
+    text-transform: uppercase;
+}
+
+#katalog-menu li {
+    float: left;
+    margin: 0 15px;
+    font: 15px 'ticker_taperegular';
+    color: #be1a2a;
+}
+
+#katalog-ico {
+    float: right;
+    margin: 52px 25px 0 0;
+}
+
+#katalog-ico img {
+    margin: 0 7px;
+}
+
+#katalog-buket-left {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+#katalog-buket-right {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/*Конец блока хедер, начало блока контента*/
+
+#katalog-content-main {
+    overflow: hidden;
+    background: #ffffff url("../images/content-bg.png");
+    background-repeat: repeat-x;
+    background-position: bottom;
+    padding: 0 0 80px 0;
+}
+
+h3 {
+    text-align: center;
+    font: 24px 'ticker_taperegular';
+    color: #38441b;
+    margin-top: 10px;
+}
+
+#kat-nav {
+    text-align: center;
+    margin-bottom: 40px;
+    font: 14px 'ticker_taperegular';
+    color: #be1a2a;
+}
+
+#galery-top {
+    width: 85%;
+    height: 250px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+#galery img {
+    padding-top: 20px;
+}
+
+#galery a{
+   font: 14px 'ticker_taperegular';
+   color: #be1a2a;  
+}
+
+#slide1 {
+    float: left;
+    width: 25%;
+}
+
+#slide2 {
+    float: left;
+    width: 25%;
+}
+
+#slide3 {
+    float: left;
+    width: 25%;
+}
+
+#slide4 {
+    float: left;
+    width: 25%;
+}
+
+#galery-bottom {
+    width: 85%;
+    height: 250px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+#slide5 {
+    float: left;
+    width: 25%;
+}
+
+#slide6 {
+    float: left;
+    width: 25%;
+}
+
+#slide7 {
+    float: left;
+    width: 25%;
+}
+
+#slide8 {
+    float: left;
+    width: 25%;
+}
+
+#phone {
+    margin: 40px auto -50px 40px;
+    font: 12px 'ticker_taperegular';
+    color: #38441b;
+}
+#phone a {
+    font: 11px 'ticker_taperegular';
+    color: #be1a2a;
+}
+
+span {
+    font: 12px 'ticker_taperegular';
+    color: #be1a2a;
+}
+
+/*Конец блока контента, начало блока футер*/
+ 
+#footer {
+    background: #ffffff;
+    position: relative;
+    height: 70px;
+}
+
+#foot-menu {
+    list-style: none;
+    float: left;
+    overflow: hidden;
+    text-transform: uppercase;
+    margin: 30px 0 0 310px;
+}
+
+#foot-menu li {
+    float: left;
+    font: 11px 'ticker_taperegular';
+    color: #be1a2a;
+    margin: 0 10px;
+}
+
+#foot-link {
+    float: right;
+    margin: 20px 10px 0 0;
+}
+
+#foot-link img {
+    padding: 0 0 0 5px;
+}
+
+/*Конец футера*/
